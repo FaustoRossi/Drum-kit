@@ -1,0 +1,49 @@
+html {
+  background-image: url("./drums.jpg");
+  background-size: cover;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  margin: 1rem;
+  border: solid 5px #473f3f;
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+  width: 10rem;
+  height: 5rem;
+  transition: all 0.07s ease;
+  display: block;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.playing {
+  transform: scale(1, 1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 50%;
+  display: block;
+  font-size: 3rem;
+  color: #a00e04;
+}
+
+span {
+  font-size: 1.2rem;
+  color: #ffc600;
+  text-transform: uppercase;
+}
